@@ -1,0 +1,113 @@
+/* Nitro Coffee section */
+.header {
+	background-color: var(--nitro-pink);
+}
+
+.nitro, .footer {
+	background-color: var(--nitro-pink);
+}
+.nitro-card {
+	width: 40%;
+	padding: 5rem;
+	display: inline-block;
+}
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.nitro__title, .products-title  {
+	color: var(--primary-color);
+	font-size: var(--main-title-font);
+	font-weight: 300;
+	margin-bottom: var(--primary-margin);
+}
+
+.nitro-card .nitro__para {
+	color: var(--primary-color);
+	font-weight: 600;
+	margin-bottom: var(--secondary-margin);
+	font-size: 1.3rem;
+}
+
+ .nitro-image {
+	display: inline-block;
+	padding-left: 15rem;	
+} 
+
+.nitro__btn, .products__btn {
+	color: white;
+	background-color: var(--highlight-color);
+	font-size: var(--secondary-font);
+	border: none;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	margin-bottom: 6rem;
+}
+
+/* PRODUCT SECTION */
+.products {
+	background-color: var(--light-gray);
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.products__image {
+	margin-bottom: var(--primary-margin);
+}
+
+.products__subtitle, .footer-address__title {
+	color: var(--primary-color);
+	font-size: var(--subprimary-font);
+	font-weight: 300;
+	margin-bottom: var(--secondary-margin);
+}
+
+.products__price {
+	color: var(--highlight-color);
+	font-size: var(--subprimary-font);
+	margin-bottom: var(--secondary-margin);
+}
+.products__para {
+	font-size: var(--primary-font);
+	background-color: var(--primary-color);
+	color: var(	--seconday-color);
+	width: 90%;
+	 padding: 3rem 2rem ;
+	margin: 4rem auto 10rem auto;  
+}
+.products-wrap {
+	background-color:var(--seconday-color);
+	text-align: center;
+	width: 80%;
+	margin: 10rem auto;
+}
+.products-card {
+text-align: center;
+}
+
+.products-item {
+	display: inline-block;	text-align: center;
+	border: 1px solid var(--secondary-color);
+	box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    margin: 2rem 4rem;
+	padding: 2rem 4rem;
+	width: 30rem;
+	height: 40rem;
+	border-radius: 10px;		 
+}
+
+/* Footer Section */
+.footer-address {
+	display: inline-block;
+	margin: 10rem 7rem;
+	text-align: left;
+}
+.footer-address__para, .footer-address__secpara {
+	color: var(--primary-color);
+	font-size: var(--secondary-font);
+	margin-bottom: 1rem;
+}
+.footer__image {
+	width: 4rem;
+}

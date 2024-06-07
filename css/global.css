@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/* For Coloring */
+	--primary-color: #393939;
+	--seconday-color: #FFF;
+	--highlight-color: #5BACC3;
+	--light-gray: #F7F7F7;
+	--nitro-pink:#FFF0ED;
+
+	/* For Font */
+	--primary-font: 4rem;
+	--menu-font: 6rem;
+	--secondary-font: 2rem;
+	--subprimary-font: 3rem;
+	--main-title-font: 5rem;
+
+	/* For Margin */
+	--primary-margin: 3rem;
+	--secondary-margin: 2rem;	
+	--margin: 0.5rem;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+}
+
+/* LOGO and Navigation bar styling */
+.header {
+	background-color: var(--nitro-pink);
+	padding-top: 2rem;
+}
+.header .header__logo, .header__nav-item li, .header__nav-item, .features li {
+	 display: inline-block;
+}
+.header .header__logo {
+  padding-bottom: var(--primary-margin);
+  text-align: center;
+  align-items: center;
+}
+
+.header__nitro-head {
+  color: var(--primary-color);
+  font-size: var(--primary-font);
+  text-decoration: none;
+}
+.header__nav-item ul li:last-child a {
+	color: var(--highlight-color);
+}
+.header__nav-item li {
+	padding-left: 2rem;
+}
+.header__nav-link {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+.header__nav-item {
+  font-size: var(--secondary-font);
+  font-weight: Regular 400;
+  margin-left: 4rem;
+}
+
+section li {
+	list-style: none;
+}

@@ -1,0 +1,90 @@
+/* First Section MENU */
+
+.menu {
+  background-image: url('/assets/images/coffee-circle.jpg');
+  position: relative;
+  min-height: 40rem; 
+  background-position: center;
+  background-size: cover;
+}
+
+.menu__title{
+  background-color: var(--primary-color);
+  color: var(--seconday-color);
+  font-size: var(--menu-font);
+  font-weight: 300;
+  text-align: center;
+  Width: 27rem;
+  Height:18rem; 
+  margin: 0 auto;
+}
+
+/* Second Section MENU */
+.features{
+	background-color:var(--primary-color);
+	padding: 2rem 0;
+}
+
+.features li {
+color: var(--seconday-color);
+text-align: center;
+}
+
+.fearures-link {
+	color: var(--seconday-color);
+	text-decoration: none;
+	font-size:var(--secondary-font); 
+	text-transform: uppercase;
+	font-weight: regular 400;
+	padding: 0 2rem;
+	border-left: 5px solid var(--highlight-color);
+}
+
+.features ul {
+	text-align: center;
+}
+
+/* Third Section HOT DRINKS & Fourth Section COLD DRINKS with fifth section PASTRIES */
+
+.drinks {
+	background-color: var(--nitro-pink);
+	padding-top: 3rem;
+	min-height: 35rem;
+	color: var(--primary-color);
+	padding: 4rem 0;
+}
+
+.cold-drink {
+	background-color:var(--light-gray);
+	min-height: 35rem;
+	color: var(--primary-color);
+	padding: 4rem 0;
+}
+
+.drinks__title, .cold-drink__title {
+	font-weight: 300;
+	font-size: var(--main-title-font);
+	color: var(--primary-color);
+	text-align: center;
+	margin-bottom: var(--primary-margin);
+}
+
+.drinks__subtitle, .cold-drink__subtitle {
+	text-align: center;
+	font-weight: 400;
+	font-size: var(--subprimary-font);
+}
+
+.drinks__item, .cold-drink__item {
+	font-size: var(--secondary-font);
+	font-weight: Regular 400;
+	font-style: italic;
+	 width: 40%;
+	margin: var(--margin) auto;
+}
+.drinks__price, .cold-drink__price {
+	text-align: center;
+	color: var(--highlight-color);
+	font-size: var(--secondary-font);
+	padding: 2rem;
+}
